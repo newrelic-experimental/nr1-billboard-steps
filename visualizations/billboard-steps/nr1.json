@@ -1,0 +1,46 @@
+{
+  "schemaType": "VISUALIZATION",
+  "id": "billboard-steps",
+  "displayName": "BillboardSteps",
+  "description": "",
+  "configuration": [
+    {
+      "name": "nrqlQueries",
+      "title": "NRQL Queries",
+      "type": "collection",
+      "items": [
+        {
+          "name": "accountId",
+          "title": "Account ID",
+          "description": "Account ID to be associated with the query",
+          "type": "number"
+        },
+        {
+          "name": "query",
+          "title": "Query",
+          "description": "NRQL query for visualization",
+          "type": "nrql"
+        }
+      ]
+    },
+    {
+      "name": "filters",
+      "title": "NRQL WHERE Filters",
+      "type": "collection",
+      "items": [
+        {
+          "name": "title",
+          "title": "Filter Title",
+          "description": "Title of Filter Stage",
+          "type": "string"
+        },
+        {
+          "name": "filter",
+          "title": "Where Clause",
+          "description": "Where Clause to apply to Query",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+.EmptyState,
+.ErrorState {
+  height: 100%;
+  text-align: center;
+
+  &-cardBody {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.ErrorState-headingText {
+  color: darkgrey;
+}
+
+.container {
+  height: 100%;
+  .block{
+    width: 100%;
+    border-bottom: 3px solid;
+    border-color:  #9896dc;
+  }
+}
+
+.header {
+  height: 15%;
+ // background-color: green;
+  text-align: center;
+  display: block;
+}
+
+.billboard-guts {
+  height: 75%;
+ // background-color: red;
+}
+
+
+.footer {
+  height: 10%;
+ // background-color: blue;
+}
+

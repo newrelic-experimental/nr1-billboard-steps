@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "nr1-billboard-steps-launcher",
+    "displayName": "Nr1BillboardStepsLauncher",
+    "description": "Describe me",
+    "rootNerdletId": "nr1-billboard-steps-nerdlet"
+}
