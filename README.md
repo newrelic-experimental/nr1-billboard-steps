@@ -7,7 +7,7 @@
 
 
 ![example transactions filtered 3 different ways ](https://github.com/newrelic-experimental/nr1-billboard-steps/blob/main/screenshots/example1.PNG)
-![example transactions filtered 3 different ways ](https://github.com/newrelic-experimental/nr1-billboard-steps/blob/main/screenshots/example2.PNG)
+
 ## Installation/Building
 
 > install the modules  --  npm install
@@ -18,6 +18,8 @@
 > This visualization was orginally constructed to be used along side the nr1-funnelz visualization to mimic the nr1-customer-journey application.   Because its a 
 > completly independent visualization, it can be used on its own. 
 > Each filter (step) can be titled.
+
+![example with nr1-funnelz ](https://github.com/newrelic-experimental/nr1-billboard-steps/blob/main/screenshots/example2.png)
 
 > NOTE:  make sure to generate a new uuid for the nerdpack  --  nr1 nerdpack:uuid <br />
 > All nr1 commands found here: https://developer.newrelic.com/explore-docs/nr1-cli 
