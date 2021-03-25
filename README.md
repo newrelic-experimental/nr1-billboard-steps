@@ -2,15 +2,22 @@
 
 # [nr1-billboard-steps] 
 
->NewRelic nr1 billboard visualization, allows one query across mutliple billboards, each with its own filter(WHERE)
->Can be used along side nr1-funnelz for display of other metrics in billboard form.
+> NewRelic nr1 billboard visualization which allows for one query and then a collection of filters(NRQL WHERE).  Each filter is appended to the query and will produce a 
+> seperate billboard below the previous.  
+
 
 ![example transactions filtered 3 different ways ](https://github.com/newrelic-experimental/nr1-billboard-steps/blob/main/screenshots/example1.PNG)
+![example transactions filtered 3 different ways ](https://github.com/newrelic-experimental/nr1-billboard-steps/blob/main/screenshots/example2.PNG)
 ## Installation/Building
 
->install the modules  --  npm install
->build the nerdpack   --  nr1 nerdpack:build
->serve the nerdpack   --  nr1 nerdpack:serve
+> install the modules  --  npm install
+> build the nerdpack   --  nr1 nerdpack:build
+> serve the nerdpack   --  nr1 nerdpack:serve
+
+## Usage
+> This visualization was orginally constructed to be used along side the nr1-funnelz visualization to mimic the nr1-customer-journey application.   Because its a 
+> completly independent visualization, it can be used on its own. 
+> Each filter (step) can be titled.
 
 > NOTE:  make sure to generate a new uuid for the nerdpack  --  nr1 nerdpack:uuid <br />
 > All nr1 commands found here: https://developer.newrelic.com/explore-docs/nr1-cli 
