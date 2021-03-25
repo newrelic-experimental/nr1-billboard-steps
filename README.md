@@ -1,6 +1,6 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [nr1-billboard-steps] 
+# nr1-billboard-steps
 
 > NewRelic nr1 billboard visualization which allows for one query and then a collection of filters(NRQL WHERE).  Each filter is appended to the query and will produce a 
 > seperate billboard below the previous.  
@@ -11,8 +11,10 @@
 ## Installation/Building
 
 > install the modules  --  npm install
+> 
 > build the nerdpack   --  nr1 nerdpack:build
-> serve the nerdpack   --  nr1 nerdpack:serve
+> 
+> serve the nerdpack(for debug)   --  nr1 nerdpack:serve
 
 ## Usage
 > This visualization was orginally constructed to be used along side the nr1-funnelz visualization to mimic the nr1-customer-journey application.   Because its a 
